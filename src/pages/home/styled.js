@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import Button from "../../components/button";
 
+export const Form = styled.form`
+  width: 100%;
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -51,6 +55,15 @@ export const SocialButton = styled(Button)`
   align-items: center;
   justify-content: center;
   gap: 10px;
+  width: 100%;
+  padding: 15px 24px;
+  border: 2px;
+  border-radius: 10px;
+`;
+
+export const SocialContinueButton = styled(SocialButton)`
+  background-color: rgb(16, 138, 0);
+  color: #fff;
 `;
 
 export const Icon = styled.img`
